@@ -1,11 +1,11 @@
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 import os
 import streamlit as st
 from langchain.llms import OpenAI
 from langchain_community import llms
 
-# Load environment variables
-# load_dotenv()
+#Load environment variables
+load_dotenv()
 
 # Initialize the OpenAI model
 api_key = os.getenv('OPENAI_API_KEY')  # Make sure this environment variable is set in your .env file
